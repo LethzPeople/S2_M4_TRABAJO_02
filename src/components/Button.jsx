@@ -1,7 +1,6 @@
 const Button = ({ variant, onClick, children, className = "" }) => {
   const baseStyle = "px-4 py-2 text-black font-bold rounded-none transition-shadow";
   
-  // Variantes para estilos comunes
   const variantStyle =
     variant === "primary"
       ? "bg-green-500 shadow-[0_0_10px_#00ff00] hover:shadow-[0_0_20px_#00ff00]"
